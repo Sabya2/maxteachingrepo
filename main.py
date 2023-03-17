@@ -1,5 +1,8 @@
+def addone(x):
+	return x+1
+
 def main():
   print("Hello, my name is Max!")
-  print("fancy new feature has been added!")
-  
+  print(addone(1337))
+
 main()
